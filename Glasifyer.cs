@@ -1,3 +1,8 @@
+using System;
+using System.Runtime.InteropServices;
+using System.Windows;
+using System.Windows.Interop;
+
 public static class Glassifyer
 {
     private static readonly int AccentPolicySize = Marshal.SizeOf(typeof(AccentPolicy));
